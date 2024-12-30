@@ -1,10 +1,9 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import sliderData from "../data/slider.json";
 import Button from "@/components/Button";
 
 export default function Slider() {
   const [imageIndex, setImageIndex] = useState(0);
-  // const timer = 2000;
 
   const nextImage = () => {
     setImageIndex((idx) => (idx === sliderData.length - 1 ? 0 : idx + 1));
@@ -14,7 +13,13 @@ export default function Slider() {
     setImageIndex((idx) => (idx === 0 ? sliderData.length - 1 : idx - 1));
   };
 
-  // setInterval(() => nextImage(), timer);
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setImageIndex((idx) => (idx === sliderData.length - 1 ? 0 : idx + 1));
+    }, 2000);
+
+    return () => clearInterval(interval);
+  }, []);
 
   return (
     <div className="relative z-10 flex w-screen overflow-hidden text-white">
