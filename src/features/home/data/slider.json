@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Slider 1",
+    "description": "This is the first slider",
+    "backgroundImage": "https://wdtapexx.wpengine.com/wp-content/uploads/2024/05/h1-service-img-02.jpg"
+  },
+  {
+    "title": "Slider 2",
+    "description": "This is the first slider",
+    "backgroundImage": "https://wdtapexx.wpengine.com/wp-content/uploads/2024/05/Home-1-Services-01.jpg"
+  },
+  {
+    "title": "Slider 3",
+    "description": "This is the first slider",
+    "backgroundImage": "https://wdtapexx.wpengine.com/wp-content/uploads/2024/05/Home-1-Services-02.jpg"
+  }
+]

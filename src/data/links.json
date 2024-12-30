@@ -1,0 +1,54 @@
+[
+  {
+    "section": "join",
+    "links": [
+      { "name": "join as mentor", "url": "/" },
+      { "name": "join as tournament hosting partner", "url": "/" },
+      { "name": "join as campus ambassador", "url": "/" },
+      { "name": "work with us", "url": "/" }
+    ]
+  },
+  {
+    "section": "main app",
+    "links": [
+      { "name": "download app", "url": "/" },
+      { "name": "main features", "url": "/" },
+      { "name": "our hosting games", "url": "/" }
+    ]
+  },
+  {
+    "section": "benifits",
+    "links": [
+      { "name": "esports organization", "url": "/" },
+      { "name": "esports player", "url": "/" },
+      { "name": "gamer", "url": "/" },
+      { "name": "content creator", "url": "/" }
+    ]
+  },
+  {
+    "section": "contents",
+    "links": [
+      { "name": "gallery", "url": "/" },
+      { "name": "blogs", "url": "/" },
+      { "name": "news", "url": "/" }
+    ]
+  },
+  {
+    "section": "about gamerstag",
+    "links": [
+      { "name": "about us", "url": "/" },
+      { "name": "mentors", "url": "/" },
+      { "name": "team", "url": "/" },
+      { "name": "incubation", "url": "/" },
+      { "name": "our timeline", "url": "/" }
+    ]
+  },
+  {
+    "section": "others",
+    "links": [
+      { "name": "contact us", "url": "/" },
+      { "name": "share your ideas", "url": "/" },
+      { "name": "FAQ", "url": "/" }
+    ]
+  }
+]

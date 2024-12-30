@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Useful Links",
+    "links": [
+      { "name": "Home", "link": "/" },
+      { "name": "About Us", "link": "/" },
+      { "name": "Advertising", "link": "/" },
+      { "name": "Legal Notices", "link": "/" },
+      { "name": "Partnership", "link": "/" }
+    ]
+  },
+  {
+    "title": "Utility Pages",
+    "links": [
+      { "name": "Terms of Service", "link": "/" },
+      { "name": "Privacy/Terms", "link": "/" },
+      { "name": "Gift Cards", "link": "/" },
+      { "name": "Game Reviews", "link": "/" },
+      { "name": "Subscriptions", "link": "/" }
+    ]
+  },
+  {
+    "title": "Miscellaneous",
+    "links": [
+      { "name": "Charity Events", "link": "/" },
+      { "name": "FAQs", "link": "/" },
+      { "name": "License", "link": "/" },
+      { "name": "Tech Tips", "link": "/" },
+      { "name": "Contact Us", "link": "/" }
+    ]
+  }
+]
