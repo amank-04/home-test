@@ -34,7 +34,7 @@
     ]
   },
   {
-    "section": "about gamerstag",
+    "section": "about",
     "links": [
       { "name": "about us", "url": "/" },
       { "name": "mentors", "url": "/" },
