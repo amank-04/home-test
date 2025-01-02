@@ -1,5 +1,3 @@
-import React from "react";
-
 const PlusSvg = ({ className = "" }) => {
   return (
     <svg className={`${className} || ""`} width="11" height="11" fill="none">
