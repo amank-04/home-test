@@ -1,29 +1,61 @@
-import Button from "@/components/Button";
 export default function InstallNow() {
-  return (
-    <div className="relative w-screen text-white">
-      <img
-        src="https://wdtapexx.wpengine.com/wp-content/uploads/2024/05/Home-1-Services-02.jpg"
-        className="aspect-video h-[33rem] w-full object-cover"
-      />
+  const leftPhone =
+    "https://wdtapexx.wpengine.com/wp-content/uploads/2024/05/apps-mob-02.png";
+  const rightPhone =
+    "https://wdtapexx.wpengine.com/wp-content/uploads/2024/05/apps-mob-01.png";
 
+  const background =
+    "https://wdtapexx.wpengine.com/wp-content/uploads/2024/05/Home-1-Services-02.jpg";
+
+  return (
+    <div
+      className="relative aspect-video max-h-screen w-screen overflow-hidden bg-cover bg-center text-white"
+      style={{ backgroundImage: `url(${background})` }}
+    >
+      {/* Heading */}
       <h2 className="absolute top-5 w-full text-center text-6xl font-bold capitalize">
         share your testimonIAL
       </h2>
 
-      <div className="absolute right-10 top-1/4 w-1/3 space-y-4">
+      {/* Right */}
+      <div className="absolute right-10 top-1/4 w-[35%] space-y-4">
         <h2 className="text-sm font-semibold uppercase text-main">
           install now
         </h2>
         <h2 className="text-5xl font-bold uppercase">
-          get our app now & play like a pro
+          welcome to super gaming app
         </h2>
         <h4 className="font-semibold">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et
-          repellendus aut ullam! Saepe, dolor.
+          welcome to the Biggest and best gaming platform in the world, this
+          platform is build by one of the leading talented team. This app
+          provides some of the unique gaming and esports features for each
+          stakeholders.
         </h4>
-        <Button>Google Play</Button>
-        <Button>App Store</Button>
+        <div className="flex items-center space-x-5">
+          <img
+            src="https://wdtapexx.wpengine.com/wp-content/uploads/2024/05/Google-play.png"
+            alt="Google Play"
+            width={150}
+            height={150}
+          />
+
+          <img
+            src="https://wdtapexx.wpengine.com/wp-content/uploads/2024/05/App-store.png"
+            alt="App Store"
+            width={135}
+            height={135}
+          />
+        </div>
+      </div>
+
+      {/* Left */}
+      <div className="absoulte flex aspect-square size-[35rem] translate-x-1/3 translate-y-1/2">
+        <img src={leftPhone} alt="left-phone-image" className="z-10" />
+        <img
+          src={rightPhone}
+          className="-translate-x-20 translate-y-[15%]"
+          alt="right-phone-image"
+        />
       </div>
     </div>
   );

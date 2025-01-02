@@ -12,10 +12,13 @@ export default function Footer() {
       <div className="flex flex-col space-y-10 border-x border-[#3B3D3A] px-5 pb-10 pt-20 lg:flex-row lg:justify-between lg:space-y-0">
         {/* Left */}
         <div className="flex flex-col items-center space-y-5 text-center lg:block lg:w-1/3 lg:text-left">
+          <img src="/logo.svg" className="size-24" alt="logo" />
           <h2 className="text-nowrap text-5xl font-bold">Gamers Tag</h2>
           <p className="font-semibold text-[#858585]">
-            Sed libero odio, sollicitudin a porttitor ac, tempor eu nisi. Nulla
-            sit amet suscipit dolormentum mauris in, rutrum augue.
+            Welcome to Gaming Super App. Step into the fututre of gaming
+            industry for your career with one of the biggest gaming platforms
+            uniting gamers and business by downloading the app today and join
+            the Gt revolution!."
           </p>
 
           <div className="flex items-center space-x-5">

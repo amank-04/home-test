@@ -1,6 +1,6 @@
 import FollowUs from "@/components/FollowUs";
 import navigationLinks from "@/data/links.json";
-import logo from "@/../public/logo.svg";
+// import logo from "@/../public/logo.svg";
 
 type NavLink = {
   name: string;
@@ -32,7 +32,7 @@ export default function Navbar() {
         </div>
 
         <img
-          src={logo}
+          src="/logo.svg"
           className="absolute -top-1 right-1/2 z-20 size-28 translate-x-1/2 bg-background"
           alt="logo"
         />
