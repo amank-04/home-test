@@ -22,10 +22,10 @@ export default function Slider() {
   }, []);
 
   return (
-    <div className="relative z-10 flex w-screen overflow-hidden text-white">
+    <div className="relative z-10 flex aspect-video w-screen overflow-hidden text-white">
       {sliderData.map(({ backgroundImage, title, description }, index) => (
         <div
-          className="relative min-h-full w-screen min-w-full transition-all duration-500"
+          className="relative w-screen min-w-full transition-all duration-500"
           style={{
             translate: `-${100 * imageIndex + "%"}`,
           }}
@@ -33,7 +33,7 @@ export default function Slider() {
           <img
             key={backgroundImage}
             src={backgroundImage}
-            className={`aspect-video max-h-[30rem] w-full overflow-hidden object-cover transition-all duration-1000 ${index === imageIndex ? "opacity-100" : "opacity-0"}`}
+            className={`w-full object-cover transition-all duration-1000 ${index === imageIndex ? "opacity-100" : "opacity-0"}`}
           />
 
           <div className="absolute right-10 top-1/3 space-y-5">
@@ -67,7 +67,7 @@ export default function Slider() {
 
       <button
         onClick={nextImage}
-        className="absolute right-5 h-full outline-none hover:bg-black/25"
+        className="absolute right-0 h-full outline-none hover:bg-black/25"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
