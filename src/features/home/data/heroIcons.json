@@ -1,8 +1,8 @@
 {
   "heroIcons": [
-    "@/../public/home-smile.svg",
-    "@/../public/file-02.svg",
-    "@/../public/search-md.svg",
-    "@/../public/plus-square.svg"
+    "../../../assets/svgs/home-smile.svg",
+    "../../../assets/svgs/file-02.svg",
+    "../../../assets/svgs/search-md.svg",
+    "../../../assets/svgs/plus-square.svg"
   ]
 }

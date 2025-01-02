@@ -1,14 +1,19 @@
-import { notificationImages } from "../data/notification.json";
+import fileSvg from "@/assets/svgs/file-02.svg";
+import homeSvg from "@/assets/svgs/home-smile.svg";
+import searchSvg from "@/assets/svgs/search-md.svg";
+import plusSvg from "@/assets/svgs/plus-square.svg";
+import image from "@/assets/images/image-1.png";
 
 const Notification = ({ className, title }: any) => {
+  const notificationImages = [homeSvg, fileSvg, searchSvg, plusSvg];
   return (
     <div
       className={`${
         className || ""
-      } bg-n-9/40 border-n-1/10 flex items-center gap-5 rounded-2xl border p-4 pr-6 backdrop-blur`}
+      } flex items-center gap-5 rounded-2xl border border-n-1/10 bg-n-9/40 p-4 pr-6 backdrop-blur`}
     >
       <img
-        src={"@/../public/image-1.png"}
+        src={image}
         width={62}
         height={62}
         alt="image"
@@ -23,7 +28,7 @@ const Notification = ({ className, title }: any) => {
             {notificationImages.map((item, index) => (
               <li
                 key={index}
-                className="border-n-12 flex h-6 w-6 overflow-hidden rounded-full border-2"
+                className="flex h-6 w-6 overflow-hidden rounded-full border-2 border-n-12"
               >
                 <img
                   src={item}

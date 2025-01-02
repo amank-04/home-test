@@ -2,7 +2,7 @@
 
 import { cn } from "@/lib/utils";
 import React, { useEffect, useState } from "react";
-import star from "@/../public/star.png";
+import star from "@/assets/images/star.png";
 
 export const InfiniteMovingTexts = ({
   items,
