@@ -6,6 +6,7 @@ export default {
     extend: {
       colors: {
         main: "var(--main)",
+        "primary-gray": "#858585",
         background: "#111310",
         foreground: "hsl(var(--foreground))",
         card: {

@@ -12,20 +12,12 @@ export default function InstallNow() {
       className="relative aspect-video max-h-screen w-screen overflow-hidden bg-cover bg-center text-white"
       style={{ backgroundImage: `url(${background})` }}
     >
-      {/* Heading */}
-      <h2 className="absolute top-5 w-full text-center text-6xl font-bold capitalize">
-        share your testimonIAL
-      </h2>
-
       {/* Right */}
       <div className="absolute right-10 top-1/4 w-[35%] space-y-4">
-        <h2 className="text-sm font-semibold uppercase text-main">
-          install now
-        </h2>
         <h2 className="text-5xl font-bold uppercase">
           welcome to super gaming app
         </h2>
-        <h4 className="font-semibold">
+        <h4>
           welcome to the Biggest and best gaming platform in the world, this
           platform is build by one of the leading talented team. This app
           provides some of the unique gaming and esports features for each

@@ -1,32 +1,30 @@
 [
   {
-    "title": "Useful Links",
+    "title": "contents",
     "links": [
-      { "name": "Home", "link": "/" },
-      { "name": "About Us", "link": "/" },
-      { "name": "Advertising", "link": "/" },
-      { "name": "Legal Notices", "link": "/" },
-      { "name": "Partnership", "link": "/" }
+      { "name": "gallery", "link": "/" },
+      { "name": "blogs", "link": "/" },
+      { "name": "news", "link": "/" },
+      { "name": "testimonials", "link": "/" }
     ]
   },
   {
-    "title": "Utility Pages",
+    "title": "about",
     "links": [
-      { "name": "Terms of Service", "link": "/" },
-      { "name": "Privacy/Terms", "link": "/" },
-      { "name": "Gift Cards", "link": "/" },
-      { "name": "Game Reviews", "link": "/" },
-      { "name": "Subscriptions", "link": "/" }
+      { "name": "about us", "link": "/" },
+      { "name": "mentors", "link": "/" },
+      { "name": "team", "link": "/" },
+      { "name": "incubation", "link": "/" },
+      { "name": "our timeline", "link": "/" }
     ]
   },
   {
-    "title": "Miscellaneous",
+    "title": "contact",
     "links": [
-      { "name": "Charity Events", "link": "/" },
-      { "name": "FAQs", "link": "/" },
-      { "name": "License", "link": "/" },
-      { "name": "Tech Tips", "link": "/" },
-      { "name": "Contact Us", "link": "/" }
+      { "name": "download app", "link": "/" },
+      { "name": "main features", "link": "/" },
+      { "name": "our hosting", "link": "/" },
+      { "name": "game", "link": "/" }
     ]
   }
 ]

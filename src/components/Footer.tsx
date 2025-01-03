@@ -39,7 +39,7 @@ export default function Footer() {
         </div>
 
         {/* Right */}
-        <div className="grid grid-cols-1 gap-10 px-5 sm:grid-cols-2 md:grid-cols-3">
+        <div className="grid grid-cols-1 gap-20 px-5 sm:grid-cols-2 md:grid-cols-3">
           {footerspans.map((span) => (
             <CategoryspanListing key={span.title} {...span} />
           ))}
@@ -72,17 +72,20 @@ function CategoryspanListing({
   links: { name: string; link: string }[];
 }) {
   return (
-    <div className="space-y-5">
-      <h3 className="text-xl font-bold uppercase">{title}</h3>
-      <ul className="space-y-5">
-        {links.map(({ name }) => (
-          <li key={name}>
-            <span className="cursor-pointer font-semibold text-[#858585] hover:text-main">
-              {name}
-            </span>
-          </li>
-        ))}
-      </ul>
+    <div className="flex space-x-5 capitalize">
+      <span className="h-8 w-1.5 bg-main" />
+      <div className="space-y-5">
+        <h3 className="text-2xl font-bold">{title}</h3>
+        <ul className="space-y-5">
+          {links.map(({ name }) => (
+            <li key={name}>
+              <span className="cursor-pointer text-[#858585] hover:text-main">
+                {name}
+              </span>
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 }

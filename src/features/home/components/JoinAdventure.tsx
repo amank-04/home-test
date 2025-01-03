@@ -7,9 +7,9 @@ export default function JoinAdventure() {
   ];
 
   return (
-    <div className="flex flex-col items-center border-x border-[#3B3D3A] py-20 xl:flex-row xl:space-x-14">
+    <div className="flex flex-col items-center border-x border-[#3B3D3A] px-10 py-20 xl:flex-row xl:space-x-14">
       {/* Left */}
-      <div className="flex flex-1 flex-col items-center space-y-2 text-5xl font-bold uppercase text-[#3B3D3A]">
+      <div className="flex w-3/5 flex-col items-center space-y-2 text-5xl font-bold uppercase text-[#3B3D3A]">
         <h3 className="">Leading Gaming</h3>
         <h3 className="">Hub</h3>
         <h3 className="text-[12rem]">2024</h3>
@@ -23,7 +23,7 @@ export default function JoinAdventure() {
       </div>
 
       {/* Right */}
-      <div className="flex-1 space-y-5 text-white">
+      <div className="w-2/5 space-y-5 text-white">
         <p className="text-sm font-semibold uppercase text-main">
           Join the adventure
         </p>
