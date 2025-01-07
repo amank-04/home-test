@@ -22,7 +22,7 @@ export default function Slider() {
   }, []);
 
   return (
-    <div className="relative z-10 flex aspect-video w-screen overflow-hidden text-white">
+    <div className="max-w-screen relative z-10 flex aspect-video overflow-hidden text-white">
       {sliderData.map(({ backgroundImage, title, description }, index) => (
         <div
           className="relative w-screen min-w-full transition-all duration-500"

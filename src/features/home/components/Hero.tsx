@@ -1,20 +1,20 @@
 "use client";
-import { BackgroundCircles, BottomLine, Gradient } from "./HeroDesign";
-import { ScrollParallax } from "react-just-parallax";
-import Generating from "./Generating";
-import Notification from "./Notification";
+import { BottomLine } from "./HeroDesign";
+// import { ScrollParallax } from "react-just-parallax";
+// import Generating from "./Generating";
+// import Notification from "./Notification";
 import Section from "./Section";
 import Button from "@/components/Button";
 import { useRef } from "react";
 import curveImage from "@/assets/images/curve.png";
-import robotImage from "@/assets/images/robot.jpg";
-import fileSvg from "@/assets/svgs/file-02.svg";
-import homeSvg from "@/assets/svgs/home-smile.svg";
-import searchSvg from "@/assets/svgs/search-md.svg";
-import plusSvg from "@/assets/svgs/plus-square.svg";
+// import robotImage from "@/assets/images/robot.jpg";
+// import fileSvg from "@/assets/svgs/file-02.svg";
+// import homeSvg from "@/assets/svgs/home-smile.svg";
+// import searchSvg from "@/assets/svgs/search-md.svg";
+// import plusSvg from "@/assets/svgs/plus-square.svg";
 
 export default function Hero() {
-  const heroIcons = [homeSvg, fileSvg, searchSvg, plusSvg];
+  // const heroIcons = [homeSvg, fileSvg, searchSvg, plusSvg];
   const parallaxRef = useRef<HTMLDivElement | null>(null);
 
   return (
@@ -46,7 +46,7 @@ export default function Hero() {
           </p>
           <Button>Get Started</Button>
         </div>
-        <div className="relative mx-auto max-w-[23rem] md:max-w-5xl xl:mb-24">
+        {/* <div className="relative mx-auto max-w-[23rem] md:max-w-5xl xl:mb-24">
           <div className="relative z-10 overflow-hidden bg-conic-gradient p-0.5">
             <div className="relative overflow-hidden rounded-[1rem] bg-n-8">
               <div className="h-[1.4rem] overflow-hidden rounded-t-[0.9rem] bg-n-6"></div>
@@ -78,17 +78,8 @@ export default function Hero() {
             </div>
             <Gradient />
           </div>
-          {/* <div className="absolute -top-[54%] left-1/2 z-[-1] w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
-            <img
-              src="@/../public/hero-background.jpg"
-              className="w-full"
-              width={1440}
-              height={1800}
-              alt="hero image"
-            />
-          </div> */}
           <BackgroundCircles parallaxRef={undefined} />
-        </div>
+        </div> */}
       </div>
       <BottomLine />
     </Section>

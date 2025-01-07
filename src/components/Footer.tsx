@@ -15,10 +15,8 @@ export default function Footer() {
           <img src="/logo.svg" className="size-24" alt="logo" />
           <h2 className="text-nowrap text-5xl font-bold">Gamers Tag</h2>
           <p className="font-semibold text-[#858585]">
-            Welcome to Gaming Super App. Step into the fututre of gaming
-            industry for your career with one of the biggest gaming platforms
-            uniting gamers and business by downloading the app today and join
-            the Gt revolution!."
+            Welcome to the Ultimate Gaming Super App Step into the future of
+            gaming with the world's largest gaming and esports platform.
           </p>
 
           <div className="flex items-center space-x-5">

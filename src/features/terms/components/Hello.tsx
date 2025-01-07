@@ -18,20 +18,21 @@ export default function Hello() {
             Brand, College University or Organization
           </h2>
           <p className="leading-relaxed tracking-widest text-gray-300">
-            Wanted to give your users the best gaming experience and promote
-            your brand? Imagine hosting an esports tournament where everything
-            just works effortlessly.{" "}
-            <span className="font-bold text-white">
-              GAMERS TAG’s Pro SaaS Esports Tournament hosting
-            </span>{" "}
-            makes us one of the world’s best esports tournament hosting
-            platforms. This advanced SaaS features host you end-to-end
-            tournaments seamlessly, ensuring that every participant experiences
-            the thrill of competition in a virtual stadium tailored just for
-            them. You’ve got the warriors and hunters, and we bring you the
-            ultimate battleground for your organization. Picture the whole world
-            in your virtual stadium, united with tailored features for every
-            stakeholder such as creators, organizers, streamers, esports
+            Looking for a the best way to attract gamers for your brand ? Build
+            a World-class virtual stadium to hosting professional esports
+            tournaments effortlessly with
+            <span className="font-semibold text-white">
+              {" "}
+              GAMERS TAG’s Pro SaaS Esports Tournament hosting.{" "}
+            </span>
+            Meet one of the world’s best esports tournament hosting platforms,
+            this advanced SaaS features Host you end-to-end tournaments
+            seamlessly, ensuring that every participant experiences the thrill
+            of competition in a virtual stadium tailored just for them. You’ve
+            got the warriors and hunters, and we bring you the ultimate
+            battleground for your organization. Picture the whole world in your
+            virtual stadium, united with tailored features for every
+            stakeholders such as creators, organizers, streamers, esports
             athletes, gamers, sponsors, fans, and public users.
           </p>
         </div>

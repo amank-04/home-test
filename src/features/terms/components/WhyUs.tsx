@@ -7,8 +7,14 @@ type FeatureType = {
 };
 
 export default function WhyUs() {
+  const extra = {
+    subtitle: "Our vision",
+    description:
+      "Our vision to host your brand with the biggest, greatest, and Fastest Esports Tournament at world class level.",
+  };
+
   return (
-    <div className="text-primary-gray px-10">
+    <div className="px-10 text-primary-gray">
       <div className="-space-y-1">
         <p className="h-2.5 w-24 rounded-full bg-main" />
         <p className="h-1 w-52 bg-main" />
@@ -21,6 +27,18 @@ export default function WhyUs() {
         {features.map((feature) => (
           <Feature key={feature.title} {...feature} />
         ))}
+        <div className="space-y-2 border-t-2 border-main text-center">
+          <h3 className="py-2 text-center align-middle text-3xl font-bold uppercase tracking-widest">
+            <p>biggest</p>
+            <p>greatest</p>
+            <p>fastest</p>
+          </h3>
+
+          <p className="font-semibold capitalize text-white">
+            {extra.subtitle}
+          </p>
+          <p className="text-sm text-primary-gray">{extra.description}</p>
+        </div>
       </div>
     </div>
   );
@@ -28,13 +46,13 @@ export default function WhyUs() {
 
 function Feature({ title, description, subtitle }: FeatureType) {
   return (
-    <div className="space-x-4 border-t-2 border-main">
-      <h3 className="min-h-36 py-5 text-center text-3xl font-bold uppercase tracking-widest">
+    <div className="space-y-2 border-t-2 border-main text-center">
+      <h3 className="py-5 text-center align-middle text-6xl font-bold uppercase tracking-widest">
         {title}
       </h3>
 
       <p className="font-semibold capitalize text-white">{subtitle}</p>
-      <p className="text-primary-gray text-sm">{description}</p>
+      <p className="text-sm text-primary-gray">{description}</p>
     </div>
   );
 }

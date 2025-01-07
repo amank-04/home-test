@@ -9,7 +9,7 @@ export default function InstallNow() {
 
   return (
     <div
-      className="relative aspect-video max-h-screen w-screen overflow-hidden bg-cover bg-center text-white"
+      className="min-w-screen relative overflow-hidden text-white"
       style={{ backgroundImage: `url(${background})` }}
     >
       {/* Right */}

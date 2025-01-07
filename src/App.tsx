@@ -12,9 +12,10 @@ import Hello from "./features/terms/components/Hello";
 import Term from "./features/terms/components/Term";
 import Button from "./components/Button";
 import WhyUs from "./features/terms/components/WhyUs";
+import Problems from "./features/home/components/Problems";
 
 export default function App() {
-  const [page, setPage] = useState<"home" | "terms">("terms");
+  const [page, setPage] = useState<"home" | "terms">("home");
   const togglePage = () => setPage(() => (page === "home" ? "terms" : "home"));
 
   return (
@@ -35,6 +36,7 @@ const HomePage = () => {
     <div className="space-y-10">
       <Slider />
       <Hero />
+      <Problems />
       <InfiniteMovingTexts
         className="z-10 cursor-pointer border border-[#3B3D3A]"
         items={[{ title: "Realistic Game Graphics" }]}
@@ -45,7 +47,7 @@ const HomePage = () => {
       />
       <JoinAdventure />
       <TopFeatures />
-      <WeAreUnique />`
+      <WeAreUnique />
       <InstallNow />
     </div>
   );
@@ -56,12 +58,12 @@ const TermsPage = () => {
     <div className="space-y-5 text-white">
       <Welcome />
       <Hello />
-      <div className="pr-16">
-        <div className="border-primary-gray space-y-4 border-b py-16 text-center tracking-widest">
+      <div className="md:pr-16">
+        <div className="space-y-4 border-b border-primary-gray py-16 text-center tracking-widest">
           <h2 className="text-5xl font-bold uppercase">
             all in one esports tournament hosting
           </h2>
-          <p className="text-primary-gray text-sm capitalize">
+          <p className="text-sm capitalize text-primary-gray">
             " why juggle multiple platforms when you can do it all in one ?
             welcome to the future of laziness "
           </p>
