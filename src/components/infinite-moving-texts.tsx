@@ -126,7 +126,7 @@ export const InfiniteMovingTexts = ({
 
             {idx !== items.length * 2 - 1 && showIcon && (
               <li className="flex items-center">
-                <img src="/logo.svg" alt="star" className="z-10 size-14" />
+                <img src="/logo.svg" alt="star" className="z-10 size-24" />
               </li>
             )}
           </React.Fragment>
