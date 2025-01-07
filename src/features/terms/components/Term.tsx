@@ -6,8 +6,8 @@ type Props = {
 
 export default function Term({ section, title, description }: Props) {
   return (
-    <div className="space-y-5 border-b-2 border-main py-8 pl-5 capitalize text-primary-gray md:flex md:space-x-56">
-      <div className="flex space-x-3 text-3xl font-light sm:text-4xl md:min-w-[33%]">
+    <div className="border-main/65 space-y-5 border-b-2 py-8 pl-5 capitalize text-primary-gray md:flex md:space-x-56">
+      <div className="flex space-x-3 text-3xl font-extralight sm:text-4xl md:min-w-[33%]">
         <span className="h-10 w-2 bg-main" />
         <p>
           <span className="font-semibold text-white">tournment</span> {section}

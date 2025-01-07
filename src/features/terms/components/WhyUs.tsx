@@ -16,18 +16,18 @@ export default function WhyUs() {
   return (
     <div className="px-10 text-primary-gray">
       <div className="-space-y-1">
-        <p className="h-2.5 w-24 rounded-full bg-main" />
-        <p className="h-1 w-52 bg-main" />
+        <p className="h-2.5 w-24 rounded-full bg-[#AC101A]" />
+        <p className="h-1 w-52 translate-x-1 bg-[#AC101A]" />
       </div>
       <p className="p-3 text-3xl">
         <span className="font-bold text-white">Why</span>
         <span> us ?</span>
       </p>
-      <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+      <div className="mt-5 grid grid-cols-1 gap-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         {features.map((feature) => (
           <Feature key={feature.title} {...feature} />
         ))}
-        <div className="space-y-2 border-t-2 border-main text-center">
+        <div className="space-y-2 border border-gray-600 from-[#BE0431] to-[#DE2234] p-10 text-center text-primary-gray hover:bg-gradient-to-t hover:text-white">
           <h3 className="py-2 text-center align-middle text-3xl font-bold uppercase tracking-widest">
             <p>biggest</p>
             <p>greatest</p>
@@ -37,7 +37,7 @@ export default function WhyUs() {
           <p className="font-semibold capitalize text-white">
             {extra.subtitle}
           </p>
-          <p className="text-sm text-primary-gray">{extra.description}</p>
+          <p className="text-sm">{extra.description}</p>
         </div>
       </div>
     </div>
@@ -46,13 +46,13 @@ export default function WhyUs() {
 
 function Feature({ title, description, subtitle }: FeatureType) {
   return (
-    <div className="space-y-2 border-t-2 border-main text-center">
+    <div className="space-y-2 border border-gray-600 from-[#BE0431] to-[#DE2234] p-10 text-center text-primary-gray hover:bg-gradient-to-t hover:text-white">
       <h3 className="py-5 text-center align-middle text-6xl font-bold uppercase tracking-widest">
         {title}
       </h3>
 
       <p className="font-semibold capitalize text-white">{subtitle}</p>
-      <p className="text-sm text-primary-gray">{description}</p>
+      <p className="text-sm">{description}</p>
     </div>
   );
 }

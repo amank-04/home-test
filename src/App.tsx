@@ -2,10 +2,7 @@ import { useState } from "react";
 import { InfiniteMovingTexts } from "./components/infinite-moving-texts";
 import Hero from "./features/home/components/Hero";
 import InstallNow from "./features/home/components/InstallNow";
-import JoinAdventure from "./features/home/components/JoinAdventure";
 import Slider from "./features/home/components/Slider";
-import TopFeatures from "./features/home/components/TopFeatures";
-import WeAreUnique from "./features/home/components/WeAreUnique";
 import terms from "@/features/terms/data/termsData.json";
 import Welcome from "./features/terms/components/Welcome";
 import Hello from "./features/terms/components/Hello";
@@ -39,15 +36,15 @@ const HomePage = () => {
       <Problems />
       <InfiniteMovingTexts
         className="z-10 cursor-pointer border border-[#3B3D3A]"
-        items={[{ title: "Realistic Game Graphics" }]}
+        items={[{ title: "GAMERS TAG" }]}
         direction="left"
         speed="slow"
         showIcon
         pauseOnHover
       />
-      <JoinAdventure />
-      <TopFeatures />
-      <WeAreUnique />
+      {/* <JoinAdventure /> */}
+      {/* <TopFeatures /> */}
+      {/* <WeAreUnique /> */}
       <InstallNow />
     </div>
   );
@@ -55,7 +52,7 @@ const HomePage = () => {
 
 const TermsPage = () => {
   return (
-    <div className="space-y-5 text-white">
+    <div className="space-y-10 text-white">
       <Welcome />
       <Hello />
       <div className="md:pr-16">

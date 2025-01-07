@@ -5,7 +5,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        main: "var(--main)",
+        main: "#ff0e1f",
         "primary-gray": "#858585",
         background: "#111310",
         foreground: "hsl(var(--foreground))",

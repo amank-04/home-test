@@ -2,17 +2,17 @@ import helloBanner from "@/assets/images/hello-banner.png";
 export default function Hello() {
   return (
     <div className="p-6 font-sans text-white">
-      <div className="flex flex-col items-center md:flex-row md:items-start">
+      <div className="flex flex-col items-center lg:flex-row lg:items-start">
         {/* Image */}
-        <div className="p-6 md:w-1/2">
+        <div className="pl-6 lg:w-1/2">
           <img
             src={helloBanner}
             alt="Virtual Stadium"
-            className="w-full rounded-lg shadow-lg"
+            className="w-full rounded-lg shadow-lg lg:w-4/5"
           />
         </div>
         {/* Text Content */}
-        <div className="space-y-4 p-6 md:w-1/2">
+        <div className="space-y-4 p-6 lg:w-1/2">
           <h1 className="text-4xl font-bold">Hello!</h1>
           <h2 className="text-2xl font-semibold">
             Brand, College University or Organization

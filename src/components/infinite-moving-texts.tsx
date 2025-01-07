@@ -2,7 +2,6 @@
 
 import { cn } from "@/lib/utils";
 import React, { useEffect, useState } from "react";
-import star from "@/assets/images/star.png";
 
 export const InfiniteMovingTexts = ({
   items,
@@ -111,14 +110,11 @@ export const InfiniteMovingTexts = ({
                     </span>
                     <span
                       className={cn(
-                        "text-4xl font-semibold md:text-5xl lg:text-7xl",
+                        "text-4xl font-semibold text-primary-gray md:text-5xl lg:text-7xl",
                         "space-x-10",
                         useBorderedText
                           ? "border-1 mr-2 rounded-full border border-solid border-white border-opacity-20 px-12 py-5 text-3xl md:text-5xl lg:text-7xl"
                           : "",
-                        idx % 2 === 0
-                          ? "text-white" // Default style for odd items
-                          : "text-red-500", // Change style for every second (even) item
                       )}
                     >
                       {item.title}
@@ -130,7 +126,7 @@ export const InfiniteMovingTexts = ({
 
             {idx !== items.length * 2 - 1 && showIcon && (
               <li className="flex items-center">
-                <img src={star} alt="star" className="z-10 size-14" />
+                <img src="/logo.svg" alt="star" className="z-10 size-14" />
               </li>
             )}
           </React.Fragment>
