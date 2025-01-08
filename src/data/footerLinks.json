@@ -1,30 +1,35 @@
 [
   {
-    "title": "contents",
+    "title": "Key Elements",
     "links": [
-      { "name": "gallery", "link": "/" },
-      { "name": "blogs", "link": "/" },
-      { "name": "news", "link": "/" },
-      { "name": "testimonials", "link": "/" }
+      { "name": "Main Features", "link": "/" },
+      { "name": "Sub Features", "link": "/" },
+      { "name": "Games we Host", "link": "/" },
+      { "name": "FAQ", "link": "/" },
+      { "name": "Terms and Conditions", "link": "/" }
     ]
   },
   {
-    "title": "about",
+    "title": "About",
     "links": [
-      { "name": "about us", "link": "/" },
-      { "name": "mentors", "link": "/" },
-      { "name": "team", "link": "/" },
-      { "name": "incubation", "link": "/" },
-      { "name": "our timeline", "link": "/" }
+      { "name": "About Us", "link": "/" },
+      { "name": "About our Platform", "link": "/" },
+      { "name": "Host with GT ARENA", "link": "/" },
+      { "name": "Our Mentors", "link": "/" },
+      { "name": "Our Teams", "link": "/" },
+      { "name": "Our Incubators", "link": "/" }
     ]
   },
   {
-    "title": "contact",
+    "title": "Contents",
     "links": [
-      { "name": "download app", "link": "/" },
-      { "name": "main features", "link": "/" },
-      { "name": "our hosting", "link": "/" },
-      { "name": "game", "link": "/" }
+      { "name": "Gallery", "link": "/" },
+      { "name": "Blogs", "link": "/" },
+      { "name": "News", "link": "/" },
+      { "name": "Testimonials", "link": "/" },
+      { "name": "Contact us", "link": "/" },
+      { "name": "Partner with us", "link": "/" },
+      { "name": "Invest in us", "link": "/" }
     ]
   }
 ]

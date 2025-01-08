@@ -1,0 +1,87 @@
+[
+  {
+    "title": "Total Downloads",
+    "values": ["300+", "2 Million+", "1 Million+", "500K+"]
+  },
+  {
+    "title": "Feature Models",
+    "values": [
+      "B2B, B2C, B2B2C ( SaaS )",
+      "B2C, Limited B2B",
+      "B2C Only",
+      "B2B, Limited B2C"
+    ]
+  },
+  {
+    "title": "Tournament Creation",
+    "values": [
+      "Advanced, AI-driven, Customizable",
+      "Moderate, No AI Features",
+      "Basic Setup",
+      "Limited Customization"
+    ]
+  },
+  {
+    "title": "Tournament Signups & Registration",
+    "values": [
+      "3 Types of Registration formats",
+      "Open Only",
+      "Open Only",
+      "Open and Invite Only"
+    ]
+  },
+  {
+    "title": "Tournament Management",
+    "values": [
+      "Pro tools for Unlimited Members",
+      "Moderate, Organizer Focused",
+      "Basic Organizer Tools",
+      "Limited Management"
+    ]
+  },
+  {
+    "title": "Communication Tools",
+    "values": [
+      "Triple Chat Model with AI Integration",
+      "No Dedicated Tools",
+      "Single Chat Feature",
+      "Basic Messaging"
+    ]
+  },
+  {
+    "title": "Live Streams & Records",
+    "values": [
+      "Enhanced live streaming & records",
+      "Basic Streaming",
+      "Limited Streaming Options",
+      "No Record Management"
+    ]
+  },
+  {
+    "title": "Award Displays",
+    "values": [
+      "Gamified, Shareable with QR Codes",
+      "Standard Displays",
+      "Basic Award Listings",
+      "Limited Presentation"
+    ]
+  },
+  {
+    "title": "Match Pages",
+    "values": [
+      "Detailed Pro Match Page Display",
+      "Limited Customization",
+      "No Custom Match Pages",
+      "Basic Match Details"
+    ]
+  },
+  {
+    "title": "Deep Linking",
+    "values": [
+      "Ultimate Deep Linking sharing",
+      "Basic Links",
+      "No Deep Linking",
+      "Limited Sharing"
+    ]
+  }
+]

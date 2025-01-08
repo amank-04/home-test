@@ -44,20 +44,11 @@ export default function Footer() {
         </div>
       </div>
 
-      <ul className="flex justify-between text-nowrap border-x border-y border-[#3B3D3A] p-5 text-center text-lg font-semibold text-[#858585]">
-        <li className="hidden space-x-5 sm:flex">
-          <span className="cursor-pointer hover:text-main">Privacy Policy</span>
-          <span className="cursor-pointer hover:text-main">
-            Terms & Conditions
-          </span>
-        </li>
-        <li>
-          ©{" "}
-          <span className="cursor-pointer hover:text-main">Designthemes</span>{" "}
-          all rights Reserved
-        </li>
+      <div className="flex justify-between border-x border-y border-[#3B3D3A] p-5 text-lg font-semibold uppercase text-[#858585]">
+        <span />
+        <span className="">gamers tag | 2025</span>
         <SocialLinks />
-      </ul>
+      </div>
     </footer>
   );
 }
