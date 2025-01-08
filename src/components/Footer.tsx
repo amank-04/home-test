@@ -18,22 +18,6 @@ export default function Footer() {
             Welcome to the Ultimate Gaming Super App Step into the future of
             gaming with the world's largest gaming and esports platform.
           </p>
-
-          <div className="flex items-center space-x-5">
-            <img
-              src="https://wdtapexx.wpengine.com/wp-content/uploads/2024/05/Google-play.png"
-              alt="Google Play"
-              width={150}
-              height={150}
-            />
-
-            <img
-              src="https://wdtapexx.wpengine.com/wp-content/uploads/2024/05/App-store.png"
-              alt="App Store"
-              width={135}
-              height={135}
-            />
-          </div>
         </div>
 
         {/* Right */}
