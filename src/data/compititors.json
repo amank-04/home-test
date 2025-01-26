@@ -1,12 +1,16 @@
 [
   {
-    "title": "Total Downloads",
-    "values": ["300+", "2 Million+", "1 Million+", "500K+"]
+    "title": "Platform Name",
+    "values": ["GAMERS TAG", "2 Million+", "1 Million+", "500K+"]
+  },
+  {
+    "title": "Downloads (Appstore + Playstore)",
+    "values": ["300", "2 Million+", "1 Million+", "500K+"]
   },
   {
     "title": "Feature Models",
     "values": [
-      "B2B, B2C, B2B2C ( SaaS )",
+      "B2B, B2C, B2B2C (SaaS)",
       "B2C, Limited B2B",
       "B2C Only",
       "B2B, Limited B2C"
@@ -15,26 +19,26 @@
   {
     "title": "Tournament Creation",
     "values": [
-      "Advanced, AI-driven, Customizable",
-      "Moderate, No AI Features",
+      "Advanced, Al-driven, Customizable",
+      "Moderate, No Al Features",
       "Basic Setup",
       "Limited Customization"
     ]
   },
   {
-    "title": "Tournament Signups & Registration",
+    "title": "Tournament Registration",
     "values": [
       "3 Types of Registration formats",
+      "Moderate, Organizer Focused",
       "Open Only",
-      "Open Only",
-      "Open and Invite Only"
+      "Open Only"
     ]
   },
   {
     "title": "Tournament Management",
     "values": [
       "Pro tools for Unlimited Members",
-      "Moderate, Organizer Focused",
+      "Basic Organizer Tools",
       "Basic Organizer Tools",
       "Limited Management"
     ]
@@ -42,19 +46,19 @@
   {
     "title": "Communication Tools",
     "values": [
-      "Triple Chat Model with AI Integration",
+      "Pro Chat Model with Al Integration",
       "No Dedicated Tools",
       "Single Chat Feature",
-      "Basic Messaging"
+      "No Record Management"
     ]
   },
   {
     "title": "Live Streams & Records",
     "values": [
-      "Enhanced live streaming & records",
+      "Enhanced live streaming & recording",
       "Basic Streaming",
       "Limited Streaming Options",
-      "No Record Management"
+      "Limited Streaming Options"
     ]
   },
   {
@@ -63,7 +67,7 @@
       "Gamified, Shareable with QR Codes",
       "Standard Displays",
       "Basic Award Listings",
-      "Limited Presentation"
+      "Basic Award Listings"
     ]
   },
   {
@@ -83,5 +87,151 @@
       "No Deep Linking",
       "Limited Sharing"
     ]
+  },
+  {
+    "title": "Social Media Integration",
+    "values": [
+      "Full Integration with Metadata",
+      "Limited Metadata Integration",
+      "Basic Sharing Only",
+      "No Integration"
+    ]
+  },
+  {
+    "title": "Stakeholder Features",
+    "values": [
+      "Tailored Stakeholder Display",
+      "Limited Stakeholder Focus",
+      "No Specific Features",
+      "Basic Organizer Features"
+    ]
+  },
+  {
+    "title": "Next-gen UI (Neumorphic 3D UI v2)",
+    "values": ["Yes", "No", "No", "No"]
+  },
+  {
+    "title": "Pro-Gaming Profile",
+    "values": ["Yes", "Yes", "No", "No"]
+  },
+  {
+    "title": "Tournament joining Limit",
+    "values": ["Unlimited", "Unlimited", "Unlimited", "Unlimited"]
+  },
+  {
+    "title": "Sponsor Display",
+    "values": ["Yes", "No", "No", "No"]
+  },
+  {
+    "title": "Gamified Award Display",
+    "values": ["Yes", "No", "No", "No"]
+  },
+  {
+    "title": "Tournament Document Management",
+    "values": ["Yes", "Limited", "No", "No"]
+  },
+  {
+    "title": "Updated Gaming News",
+    "values": ["Yes", "No", "No", "No"]
+  },
+  {
+    "title": "News Posting",
+    "values": ["Yes", "No", "No", "No"]
+  },
+  {
+    "title": "Pro Invitation System",
+    "values": ["Unlimited (Inbound/Outbound)", "Yes", "Limited", "Limited"]
+  },
+  {
+    "title": "Manage Tournament Requests",
+    "values": ["Yes", "Limited", "Limited", "Limited"]
+  },
+  {
+    "title": "Tournament Awards Creation",
+    "values": ["Yes", "Limited", "Limited", "Limited"]
+  },
+  {
+    "title": "Dual Role in Events",
+    "values": ["Yes", "No", "No", "No"]
+  },
+  {
+    "title": "Dedicated Match Stage",
+    "values": ["Yes", "Limited", "No", "No"]
+  },
+  {
+    "title": "Dedicated Match Chats",
+    "values": ["Yes", "No", "No", "No"]
+  },
+  {
+    "title": "Dedicated Match Livestreams",
+    "values": ["Yes", "Limited", "No", "No"]
+  },
+  {
+    "title": "In-app Job Posting",
+    "values": ["Yes", "No", "No", "No"]
+  },
+  {
+    "title": "Third-party job Posting",
+    "values": ["Yes", "No", "No", "No"]
+  },
+  {
+    "title": "Saving Jobs",
+    "values": ["Yes", "No", "No", "No"]
+  },
+  {
+    "title": "Profile Update for jobs",
+    "values": ["Yes", "No", "No", "No"]
+  },
+  {
+    "title": "Easy Job Apply",
+    "values": ["Yes", "No", "No", "No"]
+  },
+  {
+    "title": "Custom Match Displays",
+    "values": ["Yes", "Limited", "No", "Limited"]
+  },
+  {
+    "title": "Live Stream Sharing",
+    "values": ["Yes", "Limited", "No", "No"]
+  },
+  {
+    "title": "Deep Linking for Matches",
+    "values": ["Yes", "Limited", "No", "No"]
+  },
+  {
+    "title": "Social Sharing with Metadata",
+    "values": ["Yes", "No", "No", "No"]
+  },
+  {
+    "title": "Tournament Chat Integration",
+    "values": ["Yes", "Limited", "No", "No"]
+  },
+  {
+    "title": "Dynamic Award QR Codes",
+    "values": ["Yes", "No", "No", "No"]
+  },
+  {
+    "title": "Comprehensive Record Management",
+    "values": ["Yes", "Limited", "No", "No"]
+  },
+  {
+    "title": "Match Result Insights (Al-driven)",
+    "values": ["Yes", "No", "No", "No"]
+  },
+  {
+    "title": "Player Performance Analytics",
+    "values": ["Yes", "No", "No", "No"]
+  },
+  {
+    "title": "Tailored Game Customization",
+    "values": ["Yes", "Limited", "No", "No"]
+  },
+  {
+    "title": "Gaming Avatars",
+    "values": ["Yes", "No", "No", "No"]
+  },
+  {
+    "title": "QR Scanning for Awards/Invites",
+    "values": ["Yes", "No", "No", "No"]
   }
 ]

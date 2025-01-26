@@ -18,15 +18,15 @@ export default function Table() {
         <tbody>
           {data.map(({ title, values }, index) => (
             <tr key={index}>
-              <td className="space-x-3 border border-l-8 border-primary-gray border-l-[#BD0331] bg-[#242020] indent-3">
+              <td className="space-x-3 border border-l-8 border-primary-gray border-l-[#BD0331] bg-[#242020] indent-3 font-medium">
                 {title}
               </td>
-              <td className="border border-primary-gray bg-gradient-to-t from-[#C72045] to-[#DE3548] p-3 text-center">
+              <td className="border border-primary-gray bg-gradient-to-t from-[#C72045] to-[#DE3548] p-3 text-center font-normal">
                 {values[0]}
               </td>
               {values.slice(1).map((value, idx) => (
                 <td
-                  className="border border-primary-gray bg-black p-3 text-center"
+                  className="border border-primary-gray bg-black p-3 text-center font-light"
                   key={idx}
                 >
                   {value}
